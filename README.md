@@ -8,10 +8,10 @@ This repository contains the complete CAD drawings, load calculations, illuminat
 
 <p align="center">
   <a href="https://youtu.be/cv_RkfxZC0A">
-    <img src="https://img.youtube.com/vi/cv_RkfxZC0A/maxresdefault.jpg" alt="Electrical Service Design Video Presentation" width="700" style="border-radius: 12px; box-shadow: 0 6px 16px rgba(0,0,0,0.3); border: 2px solid #555;" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="Watch on YouTube" width="250" />
   </a>
   <br>
-  <strong>Click the card above to watch the project walkthrough on YouTube.</strong>
+  <strong>Click the logo above to watch the project presentation on YouTube.</strong>
 </p>
 
 ---
