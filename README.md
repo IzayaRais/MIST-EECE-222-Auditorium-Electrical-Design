@@ -2,11 +2,17 @@
 
 This repository contains the complete CAD drawings, load calculations, illumination designs, and Bill of Quantities (BOQ) for the **Auditorium Electrical Service Design** project. The project was completed for the course **EECE-222: Electrical Service Design & CAD Laboratory** at the **Military Institute of Science and Technology (MIST)**.
 
+---
+
 ## Project Presentation Video
 
-[![Electrical Service Design Video Presentation](https://img.youtube.com/vi/cv_RkfxZC0A/0.jpg)](https://youtu.be/cv_RkfxZC0A)
-
-*Click the image above to watch the project walkthrough and presentation on YouTube.*
+<p align="center">
+  <a href="https://youtu.be/cv_RkfxZC0A">
+    <img src="https://img.youtube.com/vi/cv_RkfxZC0A/maxresdefault.jpg" alt="Electrical Service Design Video Presentation" width="700" style="border-radius: 12px; box-shadow: 0 6px 16px rgba(0,0,0,0.3); border: 2px solid #555;" />
+  </a>
+  <br>
+  <strong>Click the card above to watch the project walkthrough on YouTube.</strong>
+</p>
 
 ---
 
@@ -50,11 +56,11 @@ The electrical system is fed from an onsite substation through a Main Distributi
 
 ### 1. Main Distribution Board (MDB) Summary
 * **Total Maximum Demand (SDB1 + SDB2 + SDB3):** 64,314.1 W
-* **Maximum Demand with 10% Spare:** 70,745.51 W
-* **Calculated Current ($I_{demand}$):** 123.03 A 
+* **Maximum Demand (with 10% Spare):** 70,745.51 W
+* **Calculated Current (I_demand):** 123.03 A 
 * **Required Current capacity (with 25% Safety Factor):** 153.78 A
 * **Circuit Breaker:** 160A Triple-Pole MCCB
-* **Main Incoming Cable:** $4 \times 1\text{C}-50\text{ mm}^2$ NYY + $1 \times 1\text{c}-16\text{ mm}^2$ BYA (ECC)
+* **Main Incoming Cable:** 4 × 1C-50 mm² NYY + 1 × 1C-16 mm² BYA (ECC)
 * **Busbar Rating:** 300A Copper Busbar
 
 ---
@@ -62,38 +68,38 @@ The electrical system is fed from an onsite substation through a Main Distributi
 ### 2. Sub-Distribution Board Calculations
 
 #### A. SDB-1: Air Conditioning Loads (Main Hall)
-* **Primary Load:** Central Air Conditioning ($11 \times 3,000\text{ W}$ units)
+* **Primary Load:** Central Air Conditioning (11 × 3,000 W units)
 * **Total Maximum Demand:** 33,000 W (With 10% spare: 36,300 W)
 * **Calculated Current:** 63.13 A (With safety factor: 78.91 A)
 * **Circuit Breaker:** 80A DP MCB
-* **Cable:** $4 \times 1\text{C}-25\text{ mm}^2$ NYY + $1 \times 1\text{c}-16\text{ mm}^2$ BYA (ECC)
+* **Cable:** 4 × 1C-25 mm² NYY + 1 × 1C-16 mm² BYA (ECC)
 * **Busbar Size:** 160A
 
 #### B. SDB-2: General Lighting, Power Sockets & Backstage AC
 * **Total Maximum Demand:** 12,207.9 W (With 10% spare: 13,428.69 W)
 * **Calculated Current:** 23.35 A (With safety factor: 29.19 A)
 * **Circuit Breaker:** 32A DP MCB
-* **Cable:** $4 \times 1\text{C}-4\text{ mm}^2$ NYY + $1 \times 1\text{c}-4\text{ mm}^2$ BYA (ECC)
+* **Cable:** 4 × 1C-4 mm² NYY + 1 × 1C-4 mm² BYA (ECC)
 * **Busbar Size:** 60A
 
 **Load Breakdown:**
-* **Lighting:** Flat LED ($4 \times 80\text{ W}$), Mirror Light ($4 \times 15\text{ W}$), Tube Light ($5 \times 40\text{ W}$), Wall Bracket ($16 \times 40\text{ W}$), Stage Spot Lights ($3 \times 800\text{ W}$), Rotating Stage Lights ($3 \times 1500\text{ W}$), Ceiling Light ($8 \times 40\text{ W}$).
-* **Ventilation:** Ceiling Fan ($3 \times 75\text{ W}$), Wall Fan ($2 \times 45\text{ W}$), Exhaust Fan ($4 \times 36\text{ W}$).
-* **Power Sockets:** 5A 2-Pin ($6 \times 300\text{ W}$), 13A 3-Pin ($5 \times 1000\text{ W}$).
-* **AC Loads:** 1.5-Ton AC ($2 \times 1500\text{ W}$).
+* **Lighting:** Flat LED (4 × 80 W), Mirror Light (4 × 15 W), Tube Light (5 × 40 W), Wall Bracket (16 × 40 W), Stage Spot Lights (3 × 800 W), Rotating Stage Lights (3 × 1500 W), Ceiling Light (8 × 40 W).
+* **Ventilation:** Ceiling Fan (3 × 75 W), Wall Fan (2 × 45 W), Exhaust Fan (4 × 36 W).
+* **Power Sockets:** 5A 2-Pin (6 × 300 W), 13A 3-Pin (5 × 1000 W).
+* **AC Loads:** 1.5-Ton AC (2 × 1500 W).
 
 #### C. SDB-3: Special Lighting, General Sockets & Lobby AC
 * **Total Maximum Demand:** 11,762.2 W (With 10% spare: 12,938.42 W)
 * **Calculated Current:** 22.50 A (With safety factor: 28.13 A)
 * **Circuit Breaker:** 32A DP MCB
-* **Cable:** $4 \times 1\text{C}-4\text{ mm}^2$ NYY + $1 \times 1\text{c}-4\text{ mm}^2$ BYA (ECC)
+* **Cable:** 4 × 1C-4 mm² NYY + 1 × 1C-4 mm² BYA (ECC)
 * **Busbar Size:** 300A
 
 **Load Breakdown:**
-* **Lighting:** Chandelier ($1 \times 400\text{ W}$), Flat LED ($4 \times 80\text{ W}$), Exhibition Spot Light ($3 \times 15\text{ W}$), Mirror Light ($10 \times 15\text{ W}$), Tube Light ($8 \times 40\text{ W}$), Wall Bracket ($2 \times 40\text{ W}$), Ceiling Light ($23 \times 40\text{ W}$), Door Light ($2 \times 30\text{ W}$), Security Light ($1 \times 50\text{ W}$), Garden Light ($3 \times 40\text{ W}$).
-* **Power Sockets:** 5A 2-Pin ($2 \times 300\text{ W}$), 13A 3-Pin ($4 \times 1000\text{ W}$).
-* **AC Loads:** Central AC ($2 \times 3000\text{ W}$), 1.5-Ton AC ($1 \times 1500\text{ W}$).
-* **Ventilation:** Washroom Exhaust Fan ($7 \times 36\text{ W}$).
+* **Lighting:** Chandelier (1 × 400 W), Flat LED (4 × 80 W), Exhibition Spot Light (3 × 15 W), Mirror Light (10 × 15 W), Tube Light (8 × 40 W), Wall Bracket (2 × 40 W), Ceiling Light (23 × 40 W), Door Light (2 × 30 W), Security Light (1 × 50 W), Garden Light (3 × 40 W).
+* **Power Sockets:** 5A 2-Pin (2 × 300 W), 13A 3-Pin (4 × 1000 W).
+* **AC Loads:** Central AC (2 × 3000 W), 1.5-Ton AC (1 × 1500 W).
+* **Ventilation:** Washroom Exhaust Fan (7 × 36 W).
 
 ---
 
@@ -101,18 +107,18 @@ The electrical system is fed from an onsite substation through a Main Distributi
 
 To achieve uniform visual comfort, the illumination of the Main Hall was calculated using the lumen method:
 
-$$\text{Required Illuminance } (E) = 200\text{ Lux}$$
-$$\text{Maintenance Factor } (mf) = 0.7$$
-$$\text{Utilization Factor } (uf) = 0.6$$
-$$\text{Average Luminous Flux per Lamp } (F) = 2600\text{ lumens}$$
-$$\text{Main Hall Area } (A) = 155.59\text{ m}^2$$
-$$\text{Mounting Height } (Hm) = 10\text{ m}$$
+* **Required Illuminance (E):** 200 Lux
+* **Maintenance Factor (mf):** 0.7
+* **Utilization Factor (uf):** 0.6
+* **Average Luminous Flux per Lamp (F):** 2600 lumens
+* **Main Hall Area (A):** 155.59 m²
+* **Mounting Height (Hm):** 10 m
 
 $$\text{Total Flux Required } (\Phi) = \frac{E \times A}{mf \times uf} = \frac{200 \times 155.59}{0.7 \times 0.6} = 74,090.48\text{ lumens}$$
 
-$$\text{Number of Lamps Required } (N) = \frac{\Phi}{F} = \frac{74,090.48}{2600} \approx 29\text{ lamps}$$
+$$\text{Number of Lamps Required } (N) = \frac{\Phi}{F} = \frac{74,090.48}{2,600} \approx 28.5 \text{ (Rounded to 30)}$$
 
-*A layout of **30 LED flat panels (6 rows $\times$ 5 columns)** was chosen to maintain symmetry and satisfy the illumination standard.*
+*A layout of **30 LED flat panels (6 rows × 5 columns)** was chosen to maintain symmetry and satisfy the illumination standard.*
 
 ---
 
@@ -122,16 +128,16 @@ The total estimated cost for the electrical service installation is **7,852,250.
 
 | Item No. | Description / Material | Unit | Quantity | Unit Rate (BDT) | Total Cost (BDT) |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| **1** | Cable: 4x1C-50mm² NYY (BRB) | Meter | 176 | 3,383.83 | 595,554.08 |
-| **2** | Cable: 4x1C-25mm² NYY (Bizli) | Meter | 1,250 | 2,116.40 | 2,645,500.00 |
-| **3** | Cable: 4x1C-4mm² NYY | Meter | 387 | 415.40 | 160,759.80 |
-| **4** | ECC Cable: 1x1c-16mm² BYA | Meter | 1,450 | 196.40 | 284,780.00 |
-| **5** | Central AC Units (3kW) | Each | 13 | 264,000.00 | 3,432,000.00 |
+| **1** | Cable: 4 × 1C-50 mm² NYY (BRB) | Meter | 176 | 3,383.83 | 595,554.08 |
+| **2** | Cable: 4 × 1C-25 mm² NYY (Bizli) | Meter | 1,250 | 2,116.40 | 2,645,500.00 |
+| **3** | Cable: 4 × 1C-4 mm² NYY | Meter | 387 | 415.40 | 160,759.80 |
+| **4** | ECC Cable: 1 × 1C-16 mm² BYA | Meter | 1,450 | 196.40 | 284,780.00 |
+| **5** | Central AC Units (3 kW) | Each | 13 | 264,000.00 | 3,432,000.00 |
 | **6** | 1.5-Ton AC Units | Each | 4 | 57,900.00 | 231,600.00 |
 | **7** | Wall Mounted Speakers (600W) | Each | 5 | 14,000.00 | 70,000.00 |
 | **8** | Stage Spot Lights (800W) | Each | 3 | 11,577.00 | 34,731.00 |
-| **9** | Stage Rotating Lights (1500W) | Each | 3 | 17,500.00 | 52,500.00 |
-| **10** | Copper Busbar: 300A (20x10)mm² | Meter | 6 | 2,700.00 | 16,200.00 |
+| **9** | Stage Rotating Lights (1,500W) | Each | 3 | 17,500.00 | 52,500.00 |
+| **10** | Copper Busbar: 300A (20 × 10) mm² | Meter | 6 | 2,700.00 | 16,200.00 |
 | **11** | Switchboard & Conduit Works | LS | - | - | 328,625.90 |
 | | **TOTAL ESTIMATED BUDGET** | | | | **7,852,250.78 BDT** |
 
