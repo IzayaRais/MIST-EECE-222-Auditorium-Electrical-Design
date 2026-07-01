@@ -1,0 +1,15 @@
+# Exclude large presentation video (509 MB - exceeds GitHub limit)
+05_Presentation/A9-Video Presentation.mp4
+
+# AutoCAD temporary and lock files
+*.dwl
+*.dwl2
+*.tmp
+*.$$$
+*.err
+*.log
+*.bak.tmp
+
+# OS files
+Thumbs.db
+.DS_Store
